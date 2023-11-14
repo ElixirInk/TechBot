@@ -51,7 +51,7 @@ async function scrape(link, onlyOutline) {
 }
 
 
-const apiKey = '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'; // Replace with your actual OpenAI API key
+const apiKey = ''; // Replace with your actual OpenAI API key
 
 function readURLsFromFile(filePath) {
     const content = fs.readFileSync(filePath, 'utf-8');
